@@ -1,5 +1,10 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: <code>for</code> loop
+  - text: <code>readline()</code>
+  - text: <code>readlines()</code>
+  - text: <code>read()</code>
 files:
   - name: main.py
     visible: true

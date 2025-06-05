@@ -1,5 +1,11 @@
 type: choice
-is_multiple_choice: false
+is_multiple_choice: true
+options:
+  - text: The code is easier to reuse.
+  - text: The code is more readable.
+  - text: The program works faster.
+  - text: The program uses less memory.
+  - text: Maintaining the code is simpler because some action is defined in one place.
 files:
   - name: main.py
     visible: true

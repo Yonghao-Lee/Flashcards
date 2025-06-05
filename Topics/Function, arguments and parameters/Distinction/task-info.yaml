@@ -1,5 +1,12 @@
 type: choice
 is_multiple_choice: false
+options:
+  - text: "Arguments and parameters mean the same thing, these words are synonyms."
+  - text: "Parameters appear in a function definition, while arguments are the values\
+    \ we pass during a call."
+  - text: "We specify arguments when declaring a function, whereas parameters are used\
+    \ in function calls."
+  - text: "Order is important only for arguments, as opposed to parameters."
 files:
   - name: main.py
     visible: true
